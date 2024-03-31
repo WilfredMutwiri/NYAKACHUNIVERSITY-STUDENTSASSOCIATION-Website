@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div class="w-full bg-black">
-            <div class="w-10/12 m-auto pt-10 pb-10 text-white flex justify-between">
+            <div class="w-10/12 m-auto pt-10 pb-10 text-white block md:flex justify-between">
             <div>
             <img class="h-10 rounded-full" src={logo} alt="logoImg"/>
             <h2 class="pt-2">Nyakach University Students Association</h2>
             <p class="italic text-orange-500">Improving Lives</p>
             </div>
-            <div class="pl-10">
+            <div class=" pt-5 md:pt-0 pl-0 md:pl-10">
             <h2 class="text-lg">Quick Links</h2>
             <ul class="text-orange-500">
             <Link><li>Home</li></Link>
@@ -20,7 +20,7 @@ const Footer = () => {
             <Link><li>contact</li></Link>
             </ul>
             </div>
-        <div class="pl-10">
+        <div class="pl-0 md:pl-10 pt-5 md:pt-0">
         <h2 class="text-normal md:text-lg text-white pb-3">Get In Touch</h2>
         <div class="flex text-white">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-600 mr-2">
@@ -54,6 +54,7 @@ const Footer = () => {
         <p class="text-center">
             &copy;nusa. 2024 All rights reserved.
         </p>     */}
+        <div/>
         </div>
     );
 }
