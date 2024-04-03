@@ -49,13 +49,14 @@ const Footer = () => {
         </div>
         </div>
         </div>
-        {/* <hr class="mt-5"/>
-        <div class="w-full md:w-96 m-auto mt-5 text-red-600">
+        <hr class="mt-5"/>
+        <div class="w-full md:w-96 m-auto mt-5 pb-5 text-red-600">
         <p class="text-center">
             &copy;nusa. 2024 All rights reserved.
-        </p>     */}
-        <div/>
+        </p>
+        </div>   
         </div>
+
     );
 }
  

@@ -30,8 +30,8 @@ const Navbar = () => {
             </svg>
             </div>
             <ul ref={navMenu} class="block md:flex">
-            <Link><li class="navLi ">Home</li></Link>
-            <Link><li class="navLi">Who We Are</li></Link>
+            <Link to="/"><li class="navLi">Home</li></Link>
+            <Link to="/About"><li class="navLi">Who We Are</li></Link>
             <Link><li class="navLi">Join Us</li></Link>
             <Link><li class="navLi">Events</li></Link>
             <Link><li class="navLi">News</li></Link>
