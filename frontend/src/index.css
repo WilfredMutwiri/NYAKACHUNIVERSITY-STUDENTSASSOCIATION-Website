@@ -5,6 +5,20 @@
 .navLi{
     @apply ml-4 text-white cursor-pointer hover:text-orange-500 pt-2 md:pt-0
 }
+#eventsImg img{
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
+#eventsImg img:hover{
+  transform: scale(3px);
+  -webkit-transform: scale(3px);
+  -moz-transform: scale(3px);
+  -ms-transform: scale(3px);
+  -o-transform: scale(3px);
+}
 .bg{
     background-image: url(./images/WhatsApp\ Image\ 2024-03-21\ at\ 9.04.25\ PM.webp);
     background-size:cover;

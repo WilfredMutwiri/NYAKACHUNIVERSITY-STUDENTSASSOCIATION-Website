@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import eventsImg from './images/events.webp'
 const Home = () => {
     return (
         <div>
@@ -42,12 +43,7 @@ const Home = () => {
             <div class="block md:grid grid-cols-2 w-11/12 md:w-10/12 m-auto pt-10">
             <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800 mr-0 md:mr-3">
                 <h2 class="text-center text-lg pb-3 text-orange-500 font-semibold">Latest News</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, maiores.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus
-                    laborum numquam quasi at facilis quia magni atque cupiditate consequuntur!
-                </p>
-                <h2 class="text-center text-blue-800 pt-3">Read More</h2>
+               <img id="eventsImg" class=" h-40 hover:h-96" src={eventsImg} alt="eventsImg"/>
             </div>
             <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800 mt-5 md:mt-0 ml-0 md:ml-3">
                 <h2 class="text-center text-lg pb-3 text-orange-500 font-semibold">Join Us</h2>
