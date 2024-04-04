@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .navLi{
-    @apply ml-4 text-white cursor-pointer hover:text-orange-500 pt-2 md:pt-0 text-center
+    @apply ml-4 text-white cursor-pointer hover:text-orange-500 pt-2 md:pt-0
 }
 .bg{
     background-image: url(./images/WhatsApp\ Image\ 2024-03-21\ at\ 9.04.25\ PM.webp);

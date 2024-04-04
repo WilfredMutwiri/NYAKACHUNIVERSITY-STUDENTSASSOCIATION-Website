@@ -5,6 +5,18 @@ const Navbar = () => {
     const openNav=useRef(null)
     const navMenu=useRef(null)
     const closeNav=useRef(null)
+    const OpenDropdown=useRef(null)
+    const dropdown=useRef(null)
+    const HandleDropdown=()=>{
+        if(OpenDropdown.current && dropdown.current){
+            dropdown.current.style.display="block"
+        }
+    }
+    const LeaveDropdown=()=>{
+        if(OpenDropdown.current && dropdown.current){
+            dropdown.current.style.display=""
+        }
+    }
     const handleOpenNav=()=>{
         if(openNav.current && navMenu.current){
             navMenu.current.style.display="block"
@@ -31,7 +43,17 @@ const Navbar = () => {
             </div>
             <ul ref={navMenu} class="block md:flex">
             <Link to="/"><li class="navLi">Home</li></Link>
-            <Link to="/About"><li class="navLi">Who We Are</li></Link>
+            <Link to="/About"><li class="navLi justify-center">
+            <div class="flex">
+            Who We Are 
+            <svg onMouseEnter={HandleDropdown} ref={OpenDropdown}  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-orange-500 ml-2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+            </div>
+            <div ref={dropdown} onMouseLeave={LeaveDropdown} class="hidden bg-gray-800 p-4 -ml-4 shadow-sm shadow-white">
+            <Link to="/PatronInstallation"><li class="">Installation Of New Patron</li></Link>
+            </div>
+            </li></Link>
             <Link><li class="navLi">Join Us</li></Link>
             <Link><li class="navLi">Events</li></Link>
             <Link><li class="navLi">News</li></Link>
