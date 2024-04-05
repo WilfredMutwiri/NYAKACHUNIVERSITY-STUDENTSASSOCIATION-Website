@@ -35,6 +35,9 @@ const PatronInstallation = () => {
             As the torchbearer of NUSA's values and aspirations, Professor Onywera's installation marked
             a momentous occasion in the organization's history, signaling a bright future under his guidance.
            </p>
+           <p class="pt-5">
+           To learn more concerning our patron, kindly visit <a class="text-blue-700" href='https://www.kcau.ac.ke/personnel/prof-vincent-o-onywera-phd-isak2/' target='_blank'>here!</a>
+           </p>
             </div>
             </div>
         </div>
