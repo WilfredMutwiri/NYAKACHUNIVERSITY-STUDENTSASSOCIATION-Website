@@ -1,5 +1,9 @@
 import logo from "../images/logo.webp"
 import { Link } from "react-router-dom";
+import fbIcon from '../images/facebook-1-svgrepo-com.svg'
+import InstagramIcon from '../images/instagram-1-svgrepo-com.svg'
+import LinkedIn from '../images/linkedin-icon-svgrepo-com.svg'
+import whatsapIcon from '../images/whatsapp-svgrepo-com.svg'
 const Footer = () => {
     return (
         <div class="w-full bg-black">
@@ -8,6 +12,13 @@ const Footer = () => {
             <img class="h-10 rounded-full" src={logo} alt="logoImg"/>
             <h2 class="pt-2">Nyakach University Students Association</h2>
             <p class="italic text-orange-500">Improving Lives</p>
+            <div class="flex pt-5">
+            <a href="https://www.facebook.com/people/Nyakach-University-Students-Association-NUSA/100070324922543/" target="_blank"><img src={fbIcon} class="w-7 mr-2" alt="facebook Icon"/></a>
+                <img src={InstagramIcon} class="w-7 mr-2" alt="Instagram Icon"/>
+                <img src={LinkedIn} class="w-7 mr-2" alt="LinkedIn Icon"/>
+                <img src={whatsapIcon} class="w-7" alt="whatsappIcon"/>
+            </div>
+            <button class="mt-4 bg-gradient-to-r from-blue-700 to-orange-500 p-2 rounded-md font-semibold"><a href="https://drive.google.com/file/d/1BaP1s5431QWEywwJT6meQrE0I5e6maXp/view?usp=sharing" target="_blank">Get Our Constitution</a></button>
             </div>
             <div class=" pt-5 md:pt-0 pl-0 md:pl-10">
             <h2 class="text-lg">Quick Links</h2>
