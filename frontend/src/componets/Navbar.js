@@ -52,6 +52,7 @@ const Navbar = () => {
             </div>
             <div ref={dropdown} onMouseLeave={LeaveDropdown} class="hidden bg-gray-800 p-4 -ml-4 shadow-sm shadow-white">
             <Link to="/PatronInstallation"><li class="">Installation Of New Patron</li></Link>
+            <Link to="/Team"><li class="">Our Team</li></Link>
             </div>
             </li></Link>
             <Link><li class="navLi">Join Us</li></Link>
