@@ -7,16 +7,34 @@ const Navbar = () => {
     const closeNav=useRef(null)
     const OpenDropdown=useRef(null)
     const dropdown=useRef(null)
+
+    const OpenDropdown2=useRef(null)
+    const dropdown2=useRef(null)
+
     const HandleDropdown=()=>{
         if(OpenDropdown.current && dropdown.current){
             dropdown.current.style.display="block"
         }
     }
+
+    const HandleDropdown2=()=>{
+        if(OpenDropdown2.current && dropdown2.current){
+            dropdown2.current.style.display="block"
+        }
+    }
+
     const LeaveDropdown=()=>{
         if(OpenDropdown.current && dropdown.current){
             dropdown.current.style.display=""
         }
     }
+
+    const LeaveDropdown2=()=>{
+        if(OpenDropdown2.current && dropdown2.current){
+            dropdown2.current.style.display=""
+        }
+    }
+
     const handleOpenNav=()=>{
         if(openNav.current && navMenu.current){
             navMenu.current.style.display="block"
@@ -56,7 +74,18 @@ const Navbar = () => {
             <Link to="/Team"><li class="">Our Team</li></Link>
             </div>
             </li></Link>
-            <Link><li class="navLi">Join Us</li></Link>
+            <Link><li class="navLi">
+            <div class="flex">
+            Join Us
+            <svg onMouseEnter={HandleDropdown2} ref={OpenDropdown2}  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-orange-500 ml-2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+            </div>
+            <div ref={dropdown2} onMouseLeave={LeaveDropdown2} class="hidden bg-gray-800 p-4 -ml-4 shadow-sm shadow-white">
+            <Link to="/About"><li class="">Join Us</li></Link>
+            <Link to="/FAQ"><li class="">FAQs</li></Link>
+            </div>         
+            </li></Link>
             <Link><li class="navLi">Events</li></Link>
             <Link><li class="navLi">News</li></Link>
             <Link><li class="navLi mr-0 md:mr-5 mb-5 md:mb-0">contact</li></Link>

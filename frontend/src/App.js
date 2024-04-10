@@ -5,6 +5,7 @@ import Footer from "./componets/footer";
 import About from "./componets/About";
 import PatronInstallation from "./componets/PatronInstallation";
 import Team from "./componets/Team";
+import FAQ from "./componets/FAQ";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/PatronInstallation' element={<PatronInstallation/>}/>
         <Route path='/Team' element={<Team/>}/>
+        <Route path='/FAQ' element={<FAQ/>}/>
       </Routes>
       <Footer/>
     </Router>
