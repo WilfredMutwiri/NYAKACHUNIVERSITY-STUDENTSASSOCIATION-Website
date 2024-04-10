@@ -51,6 +51,7 @@ const Navbar = () => {
             </svg>
             </div>
             <div ref={dropdown} onMouseLeave={LeaveDropdown} class="hidden bg-gray-800 p-4 -ml-4 shadow-sm shadow-white">
+            <Link to="/About"><li class="">Who We Are</li></Link>
             <Link to="/PatronInstallation"><li class="">Installation Of New Patron</li></Link>
             <Link to="/Team"><li class="">Our Team</li></Link>
             </div>

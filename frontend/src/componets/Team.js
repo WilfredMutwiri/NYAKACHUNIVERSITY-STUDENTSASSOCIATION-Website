@@ -7,12 +7,24 @@ import externalAffairs from '../images/externalAffairs.webp'
 import viceChair from '../images/ViceChair.webp'
 import LegalAffairs from '../images/LegalAffairs.webp'
 import SecretaryGeneral from '../images/SecretaryGeneral.webp'
+import React, {useState,useEffect} from 'react'
 const Team = () => {
+    const meetTxt=['Meet Our Team','.','..','We are a full house','.','..',"We are devoted to serve",'.','..'];
+    const [textIndex,setTextIndex]=useState(0);
+
+    const changeText=()=>{
+        setTextIndex((prevIndex)=>(prevIndex ===meetTxt.length-1?0:prevIndex+1))
+    }
+
+    useEffect(()=>{
+        const interval=setInterval(changeText,1000);
+        return ()=>clearInterval(interval)
+    },[]);
     return (
         <div>
             <div class="w-full bg-gradient-to-r from-gray-100 to-orange-100 pt-10 pb-10">
             <div class="w-full md:w-10/12 m-auto">
-            <h2  class="text-center font-semibold text-lg text-orange-500">Meet Our Team</h2>
+            <h2  class="text-center font-semibold text-lg text-orange-500">{meetTxt[textIndex]}</h2>
             {/* first team grid */}
             <div class="block md:grid grid-cols-3 pt-5" id='grid1'>
             <div class="mb-10 md:mb-0 w-52 m-auto">
