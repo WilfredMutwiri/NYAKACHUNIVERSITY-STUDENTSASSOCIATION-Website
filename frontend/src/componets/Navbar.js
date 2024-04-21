@@ -82,7 +82,7 @@ const Navbar = () => {
             </svg>
             </div>
             <div ref={dropdown2} onMouseLeave={LeaveDropdown2} class="hidden bg-gray-800 p-4 -ml-4 shadow-sm shadow-white">
-            <Link to="/About"><li class="">Join Us</li></Link>
+            <Link to="/JoinUS"><li class="">Join Us</li></Link>
             <Link to="/FAQ"><li class="">FAQs</li></Link>
             </div>         
             </li></Link>

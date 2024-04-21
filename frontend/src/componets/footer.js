@@ -4,6 +4,7 @@ import fbIcon from '../images/facebook-1-svgrepo-com.svg'
 import InstagramIcon from '../images/instagram-1-svgrepo-com.svg'
 import LinkedIn from '../images/linkedin-icon-svgrepo-com.svg'
 import whatsapIcon from '../images/whatsapp-svgrepo-com.svg'
+import ConstitutionPDF from '../Files/Nusa Constitution.pdf'
 const Footer = () => {
     return (
         <div class="w-full bg-black">
@@ -18,7 +19,9 @@ const Footer = () => {
                 <img src={LinkedIn} class="w-7 mr-2" alt="LinkedIn Icon"/>
                 <img src={whatsapIcon} class="w-7" alt="whatsappIcon"/>
             </div>
-            <button class="mt-4 bg-gradient-to-r from-blue-700 to-orange-500 p-2 rounded-md font-semibold"><a href="https://drive.google.com/file/d/1BaP1s5431QWEywwJT6meQrE0I5e6maXp/view?usp=sharing" target="_blank">Get Our Constitution</a></button>
+            <a href={ConstitutionPDF} download={ConstitutionPDF}>
+            <button class="mt-4 bg-gradient-to-r from-blue-700 to-orange-500 p-2 rounded-md font-semibold">Get Our Constitution</button>
+            </a>
             </div>
             <div class=" pt-5 md:pt-0 pl-0 md:pl-10">
             <h2 class="text-lg">Quick Links</h2>
