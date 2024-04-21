@@ -32,7 +32,7 @@ const Home = () => {
          <div class="w-auto justify-center items-center flex mt-10">
           <button class="bg-gradient-to-r from-blue-950 text-white to-orange-500 p-2 shadow-sm shadow-black rounded-md mr-2 md:mr-4 text-normal md:text-lg w-auto md:w-32 text-center hover:bg-black"><Link to="/about">Learn More</Link></button><br/>
           <button class="bg-gradient-to-r from-blue-950 text-white to-orange-500 p-2 shadow-sm shadow-black rounded-md ml-2 md:ml-4 text-normal md:text-lg w-auto md:w-32 text-center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9iSUN_-Tqw7AAHpVbEz8-3c1-mGeoNeM5vlQevydI3IyXdA/viewform" target="_blank">Join Us</a></button><br/>
-          <button class="bg-gradient-to-r from-blue-950 text-white to-orange-500 p-2 shadow-sm shadow-black rounded-md ml-2 md:ml-4 text-normal md:text-lg w-auto md:w-auto text-center"><a href="https://drive.google.com/file/d/1BaP1s5431QWEywwJT6meQrE0I5e6maXp/view?usp=sharing" target="_black">Our Constitution</a></button>
+          <button class="bg-gradient-to-r from-blue-950 text-white to-orange-500 p-2 shadow-sm shadow-black rounded-md ml-2 md:ml-4 text-normal md:text-lg w-auto md:w-auto text-center"><a href="https://drive.google.com/file/d/1BaP1s5431QWEywwJT6meQrE0I5e6maXp/view?usp=sharing" target="_black">View Constitution</a></button>
          </div>
          </div>
          </div>
