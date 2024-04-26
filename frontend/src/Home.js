@@ -40,8 +40,8 @@ const Home = () => {
         {/* mission,vission section */}
         <div class="w-full bg-gradient-to-r from-gray-200 to-gray-400 pt-14 md:pt-28 pb-20">
             <div class="block md:grid grid-cols-2 w-11/12 md:w-10/12 m-auto">
-            <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800  mr-0 md:mr-3 hover:bg-black hover:text-white" id="homeAd">
-            <img class="w-10 m-auto mb-2" src={missionIcon} alt="missionIcon"/>
+            <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800  mr-0 md:mr-3 hover:bg-black hover:text-white">
+            <img class="w-10 m-auto mb-2" src={missionIcon} alt="missionIcon" />
                 <h2 class="text-center text-lg pb-3 text-orange-500 font-semibold">Our Mission</h2>
                 <p class="leading-relaxed">
                 To make the most of our university years, engaging in rigorous academics,
