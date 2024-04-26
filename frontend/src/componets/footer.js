@@ -17,7 +17,9 @@ const Footer = () => {
             <a href="https://www.facebook.com/people/Nyakach-University-Students-Association-NUSA/100070324922543/" target="_blank"><img src={fbIcon} class="w-7 mr-2" alt="facebook Icon"/></a>
                 <img src={InstagramIcon} class="w-7 mr-2" alt="Instagram Icon"/>
                 <img src={LinkedIn} class="w-7 mr-2" alt="LinkedIn Icon"/>
+                <a href="https://chat.whatsapp.com/E2vHsOMRMTCJPofD0dp9s0">
                 <img src={whatsapIcon} class="w-7" alt="whatsappIcon"/>
+                </a>
             </div>
             <a href={ConstitutionPDF} download={ConstitutionPDF}>
             <button class="mt-4 bg-gradient-to-r from-blue-700 to-orange-500 p-2 rounded-md font-semibold">Get Our Constitution</button>

@@ -30,8 +30,18 @@ const JoinUs = () => {
                     <span class="text-lg text-orange-500">6.Induction:</span><br/>
                     Attend the induction session to officially become a member of NUSA.
                 </h2>
+                <hr class="pb-3" />
                 <p class="pb-5">
                     Join us today and be part of a dynamic student community dedicated to growth, leadership, and positive change at Nyakach University!
+                </p>
+                <p>
+                To join our Whatsapp group. Kindly <a class="text-blue-600 hover:text-orange-500" href="https://chat.whatsapp.com/E2vHsOMRMTCJPofD0dp9s0" target="_blank"> Click here</a>
+                </p>
+                <p class="pt-3">
+                You can also find more assistance on how to be part of us by joining this<a class="text-blue-600 hover:text-orange-500" href="https://chat.whatsapp.com/GgJBlUQ3aKh3Ml3ChjsjTA" target="_blank"> whatsapp group!</a>
+                </p>
+                <p class="pt-3">
+                    In case both groups don't answer your queries, don't worry, you can still contact us by joining<a class="text-blue-600 hover:text-orange-500" href="https://chat.whatsapp.com/DRdZwvk9fc99PwbV7wmDca" target="_blank"> this whatsapp group.</a>.
                 </p>
             </div>
         </div>

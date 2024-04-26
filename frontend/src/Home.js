@@ -40,7 +40,7 @@ const Home = () => {
         {/* mission,vission section */}
         <div class="w-full bg-gradient-to-r from-gray-200 to-gray-400 pt-14 md:pt-28 pb-20">
             <div class="block md:grid grid-cols-2 w-11/12 md:w-10/12 m-auto">
-            <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800  mr-0 md:mr-3 hover:bg-black hover:text-white">
+            <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800  mr-0 md:mr-3 hover:bg-black hover:text-white" id="homeAd">
             <img class="w-10 m-auto mb-2" src={missionIcon} alt="missionIcon"/>
                 <h2 class="text-center text-lg pb-3 text-orange-500 font-semibold">Our Mission</h2>
                 <p class="leading-relaxed">
@@ -65,6 +65,9 @@ const Home = () => {
             <img class="w-10 m-auto mb-2" src={newsIcon} alt="newsIcon"/>
                 <h2 class="text-center text-lg pb-3 text-orange-500 font-semibold">Latest News</h2>
                <img id="eventsImg" class="h-40 hover:h-96 justify-center" src={eventsImg} alt="eventsImg"/>
+               <p>
+                visit our facebook page <a class="text-blue-600 hover:text-orange-500" href="https://www.facebook.com/people/Nyakach-University-Students-Association-NUSA/100070324922543/" target="_blank">here</a> for more events and updates
+               </p>
             </div>
             <div class="bg-gray-100 p-4 rounded-md shadow-sm shadow-blue-800 mt-5 md:mt-0 ml-0 md:ml-3 hover:bg-black hover:text-white">
             <img class="w-10 m-auto mb-2" src={joinUsIconn} alt="joinUsIcon" />

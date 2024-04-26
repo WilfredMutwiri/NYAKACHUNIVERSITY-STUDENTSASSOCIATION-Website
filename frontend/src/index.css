@@ -59,3 +59,18 @@
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
 }
+
+#homeAd{
+  transition: all ease-in-out 2ms;
+  -webkit-transition: all ease-in-out 2ms;
+  -moz-transition: all ease-in-out 2ms;
+  -ms-transition: all ease-in-out 2ms;
+  -o-transition: all ease-in-out 2ms;
+}
+#homeAd:hover{
+  transform: scale(2px);
+  -webkit-transform: scale(2px);
+  -moz-transform: scale(2px);
+  -ms-transform: scale(2px);
+  -o-transform: scale(2px);
+}
