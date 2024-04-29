@@ -7,6 +7,7 @@ import PatronInstallation from "./componets/PatronInstallation";
 import Team from "./componets/Team";
 import FAQ from "./componets/FAQ";
 import JoinUs from "./componets/JoinUs";
+import Events from "./componets/Events";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Team' element={<Team/>}/>
         <Route path='/FAQ' element={<FAQ/>}/>
         <Route path='/JoinUs' element={<JoinUs/>}/>
+        <Route path='/Events' element={<Events/>}/>
       </Routes>
       <Footer/>
     </Router>
