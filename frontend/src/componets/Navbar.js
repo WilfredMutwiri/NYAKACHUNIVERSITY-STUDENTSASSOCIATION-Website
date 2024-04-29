@@ -87,7 +87,7 @@ const Navbar = () => {
             </div>         
             </li></Link>
             <Link to="Events"><li class="navLi">Events</li></Link>
-            <Link><li class="navLi">News</li></Link>
+            <Link to="News"><li class="navLi">News</li></Link>
             <Link><li class="navLi mr-0 md:mr-5 mb-5 md:mb-0">contact</li></Link>
             <Link><li class="text-center bg-orange-500 text-white ml-0 md:ml-5 p-2 -mt-1 hover:bg-black shadow-sm shadow-gray-50 cursor-pointer">Donate</li></Link>
             </ul>

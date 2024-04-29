@@ -8,6 +8,7 @@ import Team from "./componets/Team";
 import FAQ from "./componets/FAQ";
 import JoinUs from "./componets/JoinUs";
 import Events from "./componets/Events";
+import News from "./componets/News";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path='/FAQ' element={<FAQ/>}/>
         <Route path='/JoinUs' element={<JoinUs/>}/>
         <Route path='/Events' element={<Events/>}/>
+        <Route path='/News' element={<News/>}/>
       </Routes>
       <Footer/>
     </Router>
