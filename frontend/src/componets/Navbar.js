@@ -49,6 +49,10 @@ const Navbar = () => {
             openNav.current.style.display="block"
         }
     }
+    
+    const loginClick=()=>{
+        alert("Page not Available...site still under development")
+    }
     return (
         <div class="">
             <div class="w-full p-3 bg-blue-950 z-50 relative">
@@ -88,8 +92,8 @@ const Navbar = () => {
             </li></Link>
             <Link to="Events"><li class="navLi">Events</li></Link>
             <Link to="News"><li class="navLi">News</li></Link>
-            <Link><li class="navLi mr-0 md:mr-5 mb-5 md:mb-0">contact</li></Link>
-            <Link><li class="text-center bg-orange-500 text-white ml-0 md:ml-5 p-2 -mt-1 hover:bg-black shadow-sm shadow-gray-50 cursor-pointer">Donate</li></Link>
+            <Link to="Contacts"><li class="navLi mr-0 md:mr-5 mb-5 md:mb-0">contact</li></Link>
+            <Link><li onClick={loginClick} class="text-center bg-orange-500 text-white ml-0 md:ml-5 p-2 -mt-1 hover:bg-black shadow-sm shadow-gray-50 cursor-pointer">Login</li></Link>
             </ul>
             <svg ref={closeNav} onClick={handleCloseNav} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="visible md:hidden h-7 m-auto mt-4 text-red-600 cursor-pointer">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />

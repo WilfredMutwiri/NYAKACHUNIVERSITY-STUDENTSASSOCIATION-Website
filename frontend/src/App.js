@@ -9,6 +9,7 @@ import FAQ from "./componets/FAQ";
 import JoinUs from "./componets/JoinUs";
 import Events from "./componets/Events";
 import News from "./componets/News";
+import Contacts from "./componets/Contacts";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route path='/JoinUs' element={<JoinUs/>}/>
         <Route path='/Events' element={<Events/>}/>
         <Route path='/News' element={<News/>}/>
+        <Route path='/Contacts' element={<Contacts/>}/>
       </Routes>
       <Footer/>
     </Router>

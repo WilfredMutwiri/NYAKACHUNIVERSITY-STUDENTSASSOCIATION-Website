@@ -28,12 +28,12 @@ const Footer = () => {
             <div class=" pt-5 md:pt-0 pl-0 md:pl-10">
             <h2 class="text-lg">Quick Links</h2>
             <ul class="text-orange-500">
-            <Link><li>Home</li></Link>
-            <Link><li>Who We Are</li></Link>
-            <Link><li>Join Us</li></Link>
-            <Link><li>Events</li></Link>
-            <Link><li>News</li></Link>
-            <Link><li>contact</li></Link>
+            <Link  to="/"><li>Home</li></Link>
+            <Link to="/About"><li>Who We Are</li></Link>
+            <Link to="/JoinUS"><li>Join Us</li></Link>
+            <Link to="Events"><li>Events</li></Link>
+            <Link to="News"><li>News</li></Link>
+            <Link to="Contacts"><li>contact</li></Link>
             </ul>
             </div>
         <div class="pl-0 md:pl-10 pt-5 md:pt-0">
